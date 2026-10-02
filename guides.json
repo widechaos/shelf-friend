@@ -1,0 +1,90 @@
+[
+  {
+    "id": "castiron",
+    "title": "铸铁锅：愿意保养才值得买",
+    "query": "铸铁锅 生锈 养锅 清洗 煎锅 厨房 锅具 cast iron pan seasoning washing drying oil maintenance",
+    "body": "Lodge 对其预养护铸铁锅的清洁步骤是清洗、擦干、抹油。油膜帮助形成易脱离表面，日常使用可维护它。购买前先试重量、看炉灶适配说明，再判断自己是否愿意做这套保养。这里不把该说明套用到搪瓷铸铁或所有品牌。",
+    "pros": "适合愿意维护油膜、经常使用锅具的人。",
+    "cons": "多一道擦干和抹油的保养步骤；尺寸合适不等于重量合适。",
+    "source": "https://www.lodgecastiron.com/pages/discover-cleaning-and-care-cast-iron",
+    "sourceName": "Lodge · Seasoned Cast Iron Cleaning & Care",
+    "kind": "厂商说明 + 购买检查表"
+  },
+  {
+    "id": "pan",
+    "title": "锅具比较：先看炉灶和维护方式",
+    "query": "不粘锅 不锈钢锅 平底锅 锅具哪个好 炉灶 清洁 nonstick stainless frying pan stove dishwasher cookware comparison",
+    "body": "先拍下或抄下包装上的材质、炉灶兼容、可用工具、洗碗机和温度限制。再按做饭频率、重量、清洗习惯比较。没有具体产品说明时，不替厂商承诺耐高温、可用金属铲或某个炉灶一定兼容。",
+    "pros": "标签上明确支持你已有炉灶、清洗习惯的那款更适合。",
+    "cons": "便宜但不兼容的锅，即使单价更低也不能满足用途。",
+    "source": null,
+    "sourceName": "Shelf Friend 原创购买检查表",
+    "kind": "购买检查表；不是产品说明书"
+  },
+  {
+    "id": "pantry",
+    "title": "米、油与调料：比较净含量和用完的机会",
+    "query": "大米 面粉 食用油 调料 大包装 小包装 单价 保质期 rice flour cooking oil bulk size price expiry pantry",
+    "body": "按标签净含量换算到同一单位；米和面粉通常按重量，液体油按容量。先核对是否同一品类、等级和用途，再判断开封后能否用完。不要把重量和容量当作同一个量，也不要用包装大小代替净含量。",
+    "pros": "同规格维度的单价让不同包装容易比较。",
+    "cons": "大包装单价低，不代表少用或放不下时更划算。",
+    "source": null,
+    "sourceName": "Shelf Friend 原创购买检查表",
+    "kind": "购买检查表；价格来自现场输入"
+  },
+  {
+    "id": "cleaner",
+    "title": "清洁用品：先读适用表面与稀释说明",
+    "query": "洗洁精 洗衣液 清洁剂 厨房浴室 浓缩 稀释 擦台面 dish soap detergent cleaner cleaning dilution surfaces concentrated",
+    "body": "看标签允许清洁哪些表面、是否需要稀释及用量。没有具体标签时不猜浓度或混用方法。若包装给了每次用量，可以用价格除以可用次数再比较；不要只按瓶子容量判断浓缩产品。",
+    "pros": "适用表面和每次用量明确，更容易算真实使用成本。",
+    "cons": "相同容量但浓度或用量不同，按升计算只是初步参考。",
+    "source": null,
+    "sourceName": "Shelf Friend 原创购买检查表",
+    "kind": "购买检查表；以标签为准"
+  },
+  {
+    "id": "storage",
+    "title": "保鲜盒：尺寸、用途和标识优先",
+    "query": "保鲜盒 饭盒 食品储存 冰箱 微波炉 洗碗机 密封 storage container lunchbox refrigerator microwave dishwasher",
+    "body": "带着冰箱层高、常用饭量或柜子尺寸挑选。检查该款是否标明食品接触、微波炉、冷冻和洗碗机适用；盖子和盒身的限制可能不同，以具体说明为准。没有标识时不推断能加热。",
+    "pros": "能装下实际饭量、放进现有空间，比单纯更大更有用。",
+    "cons": "规格不符或盖子限制不清，会增加额外使用步骤。",
+    "source": null,
+    "sourceName": "Shelf Friend 原创购买检查表",
+    "kind": "购买检查表；不是材质安全鉴定"
+  },
+  {
+    "id": "appliance",
+    "title": "小家电：使用频率、尺寸与耗材",
+    "query": "热水壶 咖啡机 搅拌机 厨房电器 功率 配件 家用 appliances kettle blender coffee machine wattage accessories",
+    "body": "核对电压、插头、台面尺寸和说明书里的功率。比较保修、滤芯或其他耗材是否能买到，再按实际使用频率判断价值。功率数字本身不等于节能、速度或效果；不根据包装照片猜表现。",
+    "pros": "尺寸、配件和使用习惯都匹配，才能减少闲置。",
+    "cons": "仅比较标价可能漏掉后续耗材和维修成本。",
+    "source": null,
+    "sourceName": "Shelf Friend 原创购买检查表",
+    "kind": "购买检查表；无未经验证的性能排名"
+  },
+  {
+    "id": "tissue",
+    "title": "纸巾与多件装：算实际可用数量",
+    "query": "纸巾 抽纸 卷纸 卷数 张数 多包装 tissue paper rolls sheets multipack count unit price",
+    "body": "优先比较包装上实际张数或可用件数，注意张数、抽数、层数和每张大小不是同一个指标。多件装在数量栏输入每包件数，再填包数；只对用途和尺寸相近的商品比较单价。",
+    "pros": "按实际总量比较，可以发现包装数量的差异。",
+    "cons": "更低的每件价格不代表更厚、更大或质量更好。",
+    "source": null,
+    "sourceName": "Shelf Friend 原创购买检查表",
+    "kind": "购买检查表；价格来自现场输入"
+  },
+  {
+    "id": "battery",
+    "title": "电池：先核对设备要求",
+    "query": "电池 充电电池 遥控器 玩具 型号 battery rechargeable remote toys size voltage",
+    "body": "查看设备要求的型号、电压和是否允许充电电池，再比较同型号的单价。核对厂商对混用、存放和处理的说明。容量缺失时不推断哪个更耐用。",
+    "pros": "匹配设备要求，比仅买最便宜的一包更重要。",
+    "cons": "标价无法单独证明续航；需核对具体规格。",
+    "source": null,
+    "sourceName": "Shelf Friend 原创购买检查表",
+    "kind": "购买检查表；无续航性能承诺"
+  }
+]

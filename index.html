@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#183e31" />
+    <title>Shelf Friend · 超市随身顾问</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳到主要内容</a>
+    <header>
+      <a class="brand" href="./"
+        ><svg width="30" height="30" viewBox="0 0 32 32" aria-hidden="true">
+          <path
+            d="M4 10h24l-3 16H7zM10 11l6-7 6 7"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.4"
+            stroke-linejoin="round"
+          /></svg
+        >Shelf Friend</a
+      ><span class="privacy">浏览器内 AI · 不上传购物问题</span>
+    </header>
+    <main id="main">
+      <section class="hero">
+        <div class="eyebrow">为朋友的一次超市采购而做</div>
+        <h1>价格看清楚。<br /><span>买回去，用得上。</span></h1>
+        <p>
+          货架前的第二双眼睛：算实际单价，查使用要点，<br
+            class="desktop"
+          />把“便宜”与“适合我”放在一起判断。
+        </p>
+      </section>
+      <div class="layout">
+        <section class="card price-card" aria-labelledby="price-title">
+          <div class="section-head">
+            <span class="step">01</span>
+            <h2 id="price-title">哪个更划算？</h2>
+            <label class="currency"
+              >币种<select id="currency">
+                <option>OMR</option>
+                <option>CNY</option>
+                <option>USD</option>
+                <option>AED</option>
+              </select></label
+            >
+          </div>
+          <p class="hint">
+            抄下现场价签。价格指整组商品的最终应付价；两款须使用同一币种。
+          </p>
+          <div id="products"></div>
+          <div class="actions">
+            <button id="add" class="secondary">＋ 加一款</button
+            ><button id="example" class="quiet">试试演示价格</button>
+          </div>
+          <div id="price-result" aria-live="polite" class="price-result">
+            填入价格和净含量，就能开始比较。
+          </div>
+          <p class="fine">
+            按同一计量维度比较 · 不查询实时行情 · 最便宜不等于最好
+          </p>
+        </section>
+        <section class="card guide-card" aria-labelledby="guide-title">
+          <div class="section-head">
+            <span class="step">02</span>
+            <h2 id="guide-title">买回去怎么用？</h2>
+          </div>
+          <p class="hint">
+            说说商品和使用场景，本地 AI 找到相关使用指南与购买检查表。
+          </p>
+          <label class="query-label" for="question">你正在考虑什么？</label
+          ><textarea
+            id="question"
+            maxlength="350"
+            rows="3"
+            placeholder="例如：铸铁锅怎么养护？我不想每次清洗后再保养。"
+          ></textarea>
+          <div class="chips">
+            <button data-q="铸铁锅如何清洗和保养？">铸铁锅保养</button
+            ><button data-q="大包装的大米一定更划算吗？">大包装划算吗</button
+            ><button data-q="保鲜盒能不能放进微波炉？">保鲜盒怎么用</button>
+          </div>
+          <button id="ask" class="primary">
+            查找相关指南 <span aria-hidden="true">↗</span>
+          </button>
+          <div class="model-status" id="model-status" role="status">
+            首次使用会下载约 118 MB 的开源模型；后续可使用浏览器缓存。
+          </div>
+          <div id="guide-result" aria-live="polite"></div>
+        </section>
+      </div>
+      <section class="trust">
+        <div>
+          <b>单价用数学，指南用模型。</b>
+          <p>
+            价格换算可立即使用。多语言 MiniLM
+            在你的浏览器内检索小型指南库，不生成虚构产品说明。
+          </p>
+        </div>
+        <details>
+          <summary>查看边界与数据来源</summary>
+          <p>
+            指南库只有当前收录的几类日用品；不知道的型号、材质、价格和性能不会补写。厂商说明会显示来源，原创检查表会明确标注。具体商品以标签和说明书为准。模型初次下载需要联网，能否离线再次打开取决于浏览器缓存。没有实时联网比价、拍照识别或朋友实测反馈。
+          </p>
+          <p>
+            <a
+              href="https://huggingface.co/Xenova/paraphrase-multilingual-MiniLM-L12-v2"
+              target="_blank"
+              rel="noopener"
+              >开放权重 MiniLM</a
+            >
+            ·
+            <a
+              href="https://github.com/huggingface/transformers.js"
+              target="_blank"
+              rel="noopener"
+              >Transformers.js</a
+            >
+          </p>
+        </details>
+      </section>
+      <footer>
+        Built for a friend · Hacktoberfest Weekend 2026
+        <a
+          href="https://github.com/widechaos/shelf-friend"
+          target="_blank"
+          rel="noopener"
+          >源码 ↗</a
+        >
+      </footer>
+    </main>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
