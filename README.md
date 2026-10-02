@@ -24,7 +24,7 @@ Use a modern browser with WASM and web workers. The service worker caches the ap
 
 ## Open-source AI at the core
 
-The retrieval worker uses Transformers.js and the quantized ONNX conversion of `paraphrase-multilingual-MiniLM-L12-v2`. It performs mean pooling, normalization and cosine ranking in a worker. This is genuine model inference, not keyword matching. Only the highest-ranking qualifying guide is shown, to reduce loosely related secondary suggestions. Queries with no score above the prototype's conservative threshold return no guide. The small corpus is deliberately inspectable; it is not comprehensive consumer-product knowledge. Chinese/English similarity thresholds need broader evaluation before practical reliance.
+The retrieval worker uses Transformers.js and the quantized ONNX conversion of `paraphrase-multilingual-MiniLM-L12-v2`. It performs mean pooling, normalization and cosine ranking in a worker. This is genuine model inference, not keyword matching. Only the highest-ranking qualifying guide is shown, to reduce loosely related secondary suggestions. Queries with no score above the prototype's threshold return no guide. The small corpus is deliberately inspectable; it is not comprehensive consumer-product knowledge. Chinese/English similarity thresholds need broader evaluation before practical reliance.
 
 - [Transformers.js](https://github.com/huggingface/transformers.js) — Apache-2.0.
 - [Base model by sentence-transformers](https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2) — Apache-2.0.

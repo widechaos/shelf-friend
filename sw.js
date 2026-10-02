@@ -1,4 +1,4 @@
-const CACHE = "shelf-friend-v2";
+const CACHE = "shelf-friend-v3";
 const SHELL = [
   "./",
   "./index.html",

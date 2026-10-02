@@ -145,6 +145,7 @@ h2 {
 .fields {
   display: grid;
   grid-template-columns: 1.1fr 1.1fr 0.85fr 0.8fr;
+  align-items: end;
   gap: 9px;
 }
 label {
